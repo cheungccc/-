@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" fill="none">
+  <title>广州城市剪影与道路</title>
+  <desc>以广州塔和珠江新城东西塔为主体的浅蓝色天际线，前景为弯曲道路与护栏。</desc>
+  <defs>
+    <linearGradient id="sky" x1="450" y1="0" x2="450" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#eaf3ff"/><stop offset=".59" stop-color="#f5f9ff"/><stop offset="1" stop-color="#e6eef8"/></linearGradient>
+    <linearGradient id="city" x1="620" y1="157" x2="620" y2="298" gradientUnits="userSpaceOnUse"><stop stop-color="#c8dcf0"/><stop offset="1" stop-color="#dfeaf3"/></linearGradient>
+    <linearGradient id="road" x1="467" y1="307" x2="421" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#bdcddd"/><stop offset="1" stop-color="#90a8c2"/></linearGradient>
+    <linearGradient id="fade" x1="750" y1="248" x2="892" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#eff6ff" stop-opacity="0"/><stop offset="1" stop-color="#eff6ff"/></linearGradient>
+    <linearGradient id="bottom" x1="450" y1="385" x2="450" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#f3f7fc" stop-opacity="0"/><stop offset="1" stop-color="#f3f7fc" stop-opacity=".65"/></linearGradient>
+    <linearGradient id="canton" x1="537" y1="120" x2="537" y2="298" gradientUnits="userSpaceOnUse"><stop stop-color="#aec9e3"/><stop offset="1" stop-color="#ccdfed"/></linearGradient>
+    <clipPath id="canton-lattice"><path d="M519 141C531 181 534 211 529 239c-3 22-7 41-13 59h42c-6-18-10-37-13-59-5-28-2-58 10-98Z"/></clipPath>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h900v440H0z"/>
+  <!-- An illustrative Guangzhou skyline, with landmarks kept clear of the title. -->
+  <g fill="url(#city)" opacity=".62">
+    <path d="M324 295v-44h18v-24h20v68h9v-86h27v86h13v-55h17v55h44v-68h19v-20h10v88h73v-61h18v61h51v-70h22v-16h16v86h12v-51h26v51h12v-72h19v-17h9v89h15v-43h26v43h14v-59h22v59h27v-32h23v32Z"/>
+  </g>
+  <g opacity=".82">
+    <!-- Guangzhou International Finance Center: rounded, tapering west tower. -->
+    <path d="M423 298l5-126c1-12 8-20 17-20s16 8 17 20l5 126Z" fill="url(#city)"/>
+    <path d="M440 159l-5 131m15-131 5 131" stroke="#edf6ff" stroke-width="2.5" opacity=".75"/>
+    <!-- Guangzhou CTF Finance Centre: the stepped east tower. -->
+    <path d="M591 298V178h5v-36h6v-15h24v15h7v36h5v120Z" fill="url(#city)"/>
+    <path d="M603 147v145m11-156v156m12-145v145" stroke="#f1f7fd" stroke-width="2.5" opacity=".7"/>
+    <path d="M596 178h37M598 202h36m-36 24h36m-36 24h36" stroke="#d1e3f1" stroke-width="2"/>
+  </g>
+  <!-- Canton Tower: antenna, observation deck and the distinctive twisted waist. -->
+  <g opacity=".9">
+    <path d="M537 65v62" stroke="#a5c1dc" stroke-width="3" stroke-linecap="round"/>
+    <path d="M533 104h8v30h-8z" fill="#b2cce3"/>
+    <path d="M519 141C531 181 534 211 529 239c-3 22-7 41-13 59h42c-6-18-10-37-13-59-5-28-2-58 10-98Z" fill="url(#canton)"/>
+    <g clip-path="url(#canton-lattice)" stroke="#f1f8ff" stroke-width="2" opacity=".78">
+      <path d="M514 141c26 46 31 101 40 158m-27-158c16 53 14 103 16 158m-5-158c-5 54-1 104-5 158m17-158c-25 49-29 103-28 158"/>
+      <path d="m514 161 43 47m-38-22 34 45m-29-13 32 48m-36-18 36 46m-3-133-36 47m36-20-35 44m34-15-34 49m38-20-42 48"/>
+      <path d="M518 168h37m-33 24h29m-27 26h25m-27 26h29m-32 26h35m-40 24h45" opacity=".5"/>
+    </g>
+    <ellipse cx="537" cy="139" rx="19" ry="4" fill="#b1cbe3"/>
+    <path d="M521 134h32v5h-32z" fill="#bad3e9"/>
+  </g>
+  <path d="M0 274c57-24 112-11 158-7 74-15 113-28 188-3 55-14 90-11 137 0 72-29 120-21 179 0 85-21 170-6 238 16v63H0z" fill="#c4d5d6" opacity=".56"/>
+  <g fill="#8daeb0" opacity=".57">
+    <path d="M0 287v-59l12 7 6-22 12 19 12-34 14 30 10-9 10 16 9-40 13 25 12-13 11 22 9-5 15 28 11-20 19 48zm174-10 8-29 12 6 15-23 17 18 8-16 13 16 12-6 11 23 15-25 13 12 14-9 20 17 8-19 13 31zm179 11 12-26 13 11 12-15 17 12 10-14 15 18 16-9 17 18z"/>
+  </g>
+  <path d="M0 291c185-6 310 4 436 6 76 1 153 1 212-10 81 2 166 11 252 19v30H0z" fill="#d3e1e5"/>
+  <path d="M420 298c44 6 108 9 143 17 27 8 23 19 6 30-34 23-38 60 42 95H0c126-72 333-92 420-142z" fill="url(#road)"/>
+  <path d="M426 300c-80 47-242 65-374 125" stroke="#f7fbff" stroke-width="5"/>
+  <path d="M514 305c75 7 78 22 49 45-30 25-8 58 45 86" stroke="#f8fbff" stroke-width="6"/>
+  <path d="m478 311-23 8m-23 8-43 17m-37 15-71 31m-43 21-39 22" stroke="#f5f9ff" stroke-width="4"/>
+  <path d="M0 326c90-1 184-3 260-11 81-8 132-17 170-21" stroke="#f9fcff" stroke-width="8"/>
+  <path d="M0 338c131-4 316-23 430-43" stroke="#97acbd" stroke-width="4"/>
+  <path d="m21 330 1 31m55-33 2 27m53-29 2 24m48-27 2 22m41-25 2 20m34-23 2 18m30-21 2 15m25-19 2 12m26-17 1 10m21-14 1 8m17-11 1 7" stroke="#8ea3b5" stroke-width="4"/>
+  <path d="M581 307c83 7 186 16 319 25" stroke="#f7fbff" stroke-width="6"/>
+  <path d="m610 311-2 12m32-9-1 14m38-9-1 16m50-12-2 17m66-12-2 20m70-15-1 23" stroke="#afc1d0" stroke-width="4"/>
+  <path fill="url(#fade)" d="M710 128h190v312H710z"/>
+  <path fill="url(#bottom)" d="M0 373h900v67H0z"/>
+</svg>
