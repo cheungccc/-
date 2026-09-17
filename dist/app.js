@@ -150,7 +150,7 @@
         D('app-page-heading', h('h1', {}, '知识库'), h('p', {}, '专业的道路隐患治理知识库', h('br'), '查问题 · 找方案 · 学案例')),
         D('app-content', searchButton('搜索隐患、设施、治理措施'),
           D('app-knowledge-modules',
-            button('app-knowledge-module is-active', () => nav('HazardTypes'), icon('grid'), h('strong', {}, '隐患知识'), h('small', {}, '分类查阅治理指引')),
+            button('app-knowledge-module is-active', () => nav('HazardTypes'), icon('grid'), h('strong', {}, '隐患分类'), h('small', {}, '分类查阅治理指引')),
             button('app-knowledge-module app-module-cases', () => nav('Cases'), icon('guide'), h('strong', {}, '典型案例'), h('small', {}, '查阅手册改善案例'))),
           section('按类型查找', '全部分类', () => nav('HazardTypes')),
           D('app-category-grid', ...['engineering', 'facilities', 'bridges', 'intersection', 'drainage', 'slopes'].map(id => {
