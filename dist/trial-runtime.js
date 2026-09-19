@@ -1,7 +1,7 @@
 /* Trial-only presentation and browser navigation. The original manual renderers
    and all source JSON/image bytes remain unchanged in the shared snapshot. */
 (() => {
-  const themes={app:'道路安全 2.0',paper:'纸感手册',tool:'专业轻量',color:'轻彩分类',field:'现场手册'};
+  const themes={app:'道路隐患排查治理助手 2.0',paper:'纸感手册',tool:'专业轻量',color:'轻彩分类',field:'现场手册'};
   const app=window.RoadApp;
   const theme=document.documentElement.dataset.uiTheme;
   const embedded=window.self!==window.top;
