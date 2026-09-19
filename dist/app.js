@@ -123,7 +123,7 @@
   function home() {
     const recent = savedEntries('recent').slice(0, 3);
     return D('app-page app-home',
-      D('app-hero', D('app-hero-top', D('app-hero-title', h('h1', {}, '道路隐患排查治理助手 2.0'), h('p', {}, '排查有据 治理有方')),
+      D('app-hero', D('app-hero-top', D('app-hero-title', h('h1', {}, '道路安全'), h('p', {}, '排查有据 治理有方')),
         D('app-hero-note', h('img', { src: 'assets/road-safety-icon.png', alt: '道路隐患排查治理助手 App 图标', width: '32', height: '32' }), h('span', {}, '守护每一段路'), h('span', {}, '让出行更安全')))),
       D('app-content',
         D('app-ai-card', D('app-ai-copy', h('small', { cn: 'app-eyebrow' }, icon('spark'), 'AI POWERED'),
