@@ -178,7 +178,7 @@
     if(heading){heading.tabIndex=-1;heading.setAttribute('role','heading');heading.setAttribute('aria-level','1');if(wasInitialized||!embedded)heading.focus({preventScroll:true})}
     const area=root.querySelector('.scr,.rwrap,.home-panel,.app-page');if(area)area.scrollTop=scrolls.get(routeHash())||0;
     const title=root.querySelector('.nm,.shdr h2,.tt,h1')?.textContent||'道路隐患排查治理助手';
-    document.title=title+' · '+themes[theme];
+    document.title=theme==='app'?'道路隐患排查治理助手 2.0':title+' · '+themes[theme];
   };
 
   closeLightbox=function(){if(closeDialog)closeDialog()};
