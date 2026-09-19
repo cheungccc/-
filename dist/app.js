@@ -164,7 +164,7 @@
     }
     return D('app-page app-knowledge app-hazard-knowledge',
       backButton(() => nav('Knowledge'), '返回知识库'),
-      heading('隐患知识', '按隐患类型查找，或按道路类型查阅完整指引'), D('app-content', searchButton(),
+      heading('隐患分类', '按隐患类型查找，或按道路类型查阅完整指引'), D('app-content', searchButton(),
         typeChoices(entries), roadChoices(),
         h('p', { cn: 'app-knowledge-note' }, icon('shield'), '两本完整手册已收录，保留原有图表与治理措施。')));
   }
